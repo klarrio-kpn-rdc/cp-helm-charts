@@ -26,7 +26,7 @@ git commit -m "<message>"
 git push origin gh-pages
 ```
 
-And finally, add the repo to your local repositories:
+Optionally, if you want to easily reference the helm charts repo locally you can add it to your local helm chart repos:
 
 `helm repo add cp-helm-charts https://klarrio-kpn-rdc.github.io/cp-helm-charts/`
 
