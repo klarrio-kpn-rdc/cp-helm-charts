@@ -3,7 +3,7 @@ entries:
   cp-helm-charts:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-03-01T08:52:59.452491496+01:00"
+    created: "2022-03-03T10:35:19.602542057+01:00"
     dependencies:
     - condition: cp-kafka.enabled
       name: cp-kafka
@@ -34,14 +34,14 @@ entries:
       repository: file://./charts/cp-control-center
       version: 0.1.0
     description: A Helm chart for Confluent Platform Community Edition
-    digest: 4d24980b58722ec9d9ed1875d6fef512ac9095471d94c228a30baa87af657351
+    digest: 77a8f22cd90b39c1fca719ece41fa80ca28f7e358396b16f254343a272abdf2b
     name: cp-helm-charts
     urls:
     - https://klarrio-kpn-rdc.github.io/cp-helm-charts/cp-helm-charts-0.6.1.tgz
     version: 0.6.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-03-01T08:52:59.447585229+01:00"
+    created: "2022-03-03T10:35:19.598886397+01:00"
     dependencies:
     - condition: cp-kafka.enabled
       name: cp-kafka
@@ -79,7 +79,7 @@ entries:
     version: 0.6.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-03-01T08:52:59.443388225+01:00"
+    created: "2022-03-03T10:35:19.595698877+01:00"
     dependencies:
     - condition: cp-kafka.enabled
       name: cp-kafka
@@ -117,7 +117,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-03-01T08:52:59.438295908+01:00"
+    created: "2022-03-03T10:35:19.591860856+01:00"
     dependencies:
     - condition: cp-kafka.enabled
       name: cp-kafka
@@ -155,7 +155,7 @@ entries:
     version: 0.4.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-03-01T08:52:59.434112458+01:00"
+    created: "2022-03-03T10:35:19.588256752+01:00"
     dependencies:
     - condition: cp-kafka.enabled
       name: cp-kafka
@@ -193,7 +193,7 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-03-01T08:52:59.428944543+01:00"
+    created: "2022-03-03T10:35:19.583819833+01:00"
     dependencies:
     - condition: cp-kafka.enabled
       name: cp-kafka
@@ -225,4 +225,4 @@ entries:
     urls:
     - https://klarrio-kpn-rdc.github.io/cp-helm-charts/cp-helm-charts-0.1.0.tgz
     version: 0.1.0
-generated: "2022-03-01T08:52:59.423868284+01:00"
+generated: "2022-03-03T10:35:19.579808329+01:00"
