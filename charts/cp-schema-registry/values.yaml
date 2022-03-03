@@ -41,6 +41,26 @@ heapOptions: "-Xms512M -Xmx512M"
 ## Charts uses Kafka Coordinator Master Election: https://docs.confluent.io/current/schema-registry/docs/design.html#kafka-coordinator-master-election
 kafka:
   bootstrapServers: ""
+  ssl: false
+  ##  Add below to enable SSL for kafka
+#  credentialsAndCertsSecrets:
+#    keyStore:
+#      secret: testing-my-user
+#      mountPath: /mnt/datahub/keystore
+#      password: user.password
+#      keyPassword: user.password
+#    trustStore:
+#      secret: testing-strimzi-cluster-cluster-ca-cert
+#      mountPath: /mnt/datahub/truststore
+#      password: ca.password
+#
+#  configurationOverrides:
+#    security.protocol: SSL
+#    kafkastore.security.protocol: SSL
+#    kafkastore.ssl.keystore.type: "PKCS12"
+#    kafkastore.ssl.keystore.location: /mnt/datahub/keystore/user.p12
+#    kafkastore.ssl.truststore.type: "PKCS12"
+#    kafkastore.ssl.truststore.location: /mnt/datahub/truststore/ca.p12
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
